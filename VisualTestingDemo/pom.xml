@@ -169,7 +169,7 @@
 					<configuration>
 						<testFailureIgnore> false </testFailureIgnore>
 						<suiteXmlFiles>
-							<suiteXmlFile>src\test\resources\runner\VisualTesting\AppliTestSuite.xml</suiteXmlFile>
+							<suiteXmlFile>src\test\resources\runner\VisualTesting\AppliTestSuite_V1_V2.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
