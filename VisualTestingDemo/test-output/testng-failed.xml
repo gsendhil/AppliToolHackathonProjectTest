@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TraditonalTestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="chrome"/>
+  <listeners>
+    <listener class-name="com.hackathon.qa.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="TraditionalVersion_1(failed)">
+    <parameter name="siteVersion" value="Version1"/>
+    <classes>
+      <class name="com.hackathon.qa.testcases.TraditionalUITest">
+        <methods>
+          <include name="getBrowserName"/>
+          <include name="invalidUsernameTest"/>
+          <include name="invalidPasswordTest"/>
+          <include name="getURL"/>
+          <include name="validloginTest"/>
+          <include name="launchBrowser"/>
+          <include name="canvasValidateTest"/>
+          <include name="loginuivalidation"/>
+          <include name="VerifyFlashSaleTest"/>
+          <include name="verifyTransactionTableTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hackathon.qa.testcases.TraditionalUITest -->
+    </classes>
+  </test> <!-- TraditionalVersion_1(failed) -->
+  <test thread-count="5" name="TraditionalVersion_2(failed)">
+    <parameter name="siteVersion" value="Version2"/>
+    <classes>
+      <class name="com.hackathon.qa.testcases.TraditionalUITest">
+        <methods>
+          <include name="getBrowserName"/>
+          <include name="invalidUsernameTest"/>
+          <include name="invalidPasswordTest"/>
+          <include name="getURL"/>
+          <include name="validloginTest"/>
+          <include name="launchBrowser"/>
+          <include name="canvasValidateTest"/>
+          <include name="loginuivalidation"/>
+          <include name="VerifyFlashSaleTest"/>
+          <include name="verifyTransactionTableTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hackathon.qa.testcases.TraditionalUITest -->
+    </classes>
+  </test> <!-- TraditionalVersion_2(failed) -->
+</suite> <!-- Failed suite [TraditonalTestSuite] -->

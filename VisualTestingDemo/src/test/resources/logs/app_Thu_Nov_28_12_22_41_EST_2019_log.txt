@@ -1,0 +1,3 @@
+DEBUG   2019-11-28 12:22:49,868 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (1124af2b75d224ba2dabbce2c79a4f2e)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 12:22:50,097 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (1124af2b75d224ba2dabbce2c79a4f2e)] -> xpath: //input[@id='password']] entered value as : capgemini
+DEBUG   2019-11-28 12:22:54,234 [main] com.hackathon.qa.base.TestBase  - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='log-in']'

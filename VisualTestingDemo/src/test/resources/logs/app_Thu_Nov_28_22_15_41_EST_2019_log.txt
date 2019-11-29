@@ -1,0 +1,6 @@
+DEBUG   2019-11-28 22:16:10,947 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (0259aeaa9b8780f7819b0396df4d9c34)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 22:16:19,447 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (4b3408efc064f875682cc1d98aeffa4d)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 22:16:27,808 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (21b018b362224d8d14ebb4b905e2b136)] -> xpath: //input[@id='username']] entered value as : 
+DEBUG   2019-11-28 22:16:36,250 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (13a33361dbe4dfa549d8b21e31c3ad45)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 22:16:44,695 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (e006b751ab455901ef1191752e655380)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 22:16:53,112 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (ede47e214f90031833f6a71ca6e040ec)] -> xpath: //input[@id='username']] entered value as : sendhil

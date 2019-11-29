@@ -1,0 +1,10 @@
+DEBUG   2019-11-28 09:24:16,883 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (d27d16edf3b262d1ac4be2987b20881c)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 09:24:17,135 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (d27d16edf3b262d1ac4be2987b20881c)] -> xpath: //input[@id='password']] entered value as : capgemini
+DEBUG   2019-11-28 09:24:20,697 [main] com.hackathon.qa.base.TestBase  - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='log-in']'
+DEBUG   2019-11-28 09:24:24,241 [main] com.hackathon.qa.base.TestBase  - Clicking on an Element : Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='showExpensesChart']'
+DEBUG   2019-11-28 09:24:35,195 [main] com.hackathon.qa.base.TestBase  - Clicking on an Element : [[ChromeDriver: chrome on XP (d27d16edf3b262d1ac4be2987b20881c)] -> xpath: //button[contains(text(),'Show data for next year')]]
+DEBUG   2019-11-28 09:24:44,979 [main] freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG   2019-11-28 09:24:44,980 [main] freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+DEBUG   2019-11-28 09:24:44,981 [main] freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+DEBUG   2019-11-28 09:24:44,982 [main] freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+DEBUG   2019-11-28 09:24:44,982 [main] freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sendkuma/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

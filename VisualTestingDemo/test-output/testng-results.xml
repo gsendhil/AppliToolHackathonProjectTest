@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-29T04:27:23Z" name="TraditonalTestSuite_Version2" finished-at="2019-11-29T04:30:08Z" duration-ms="165466">
+    <groups>
+    </groups>
+    <test started-at="2019-11-29T04:27:23Z" name="TraditionalVersion_2" finished-at="2019-11-29T04:30:08Z" duration-ms="165466">
+      <class name="com.hackathon.qa.testcases.TraditionalUITest">
+        <test-method is-config="true" signature="getBrowserName(java.lang.String)[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:27:23Z" name="getBrowserName" finished-at="2019-11-29T04:27:23Z" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserName -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:27:23Z" name="getURL" finished-at="2019-11-29T04:27:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Version2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:27:23Z" name="launchBrowser" finished-at="2019-11-29T04:27:29Z" duration-ms="6044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginuivalidation()[pri:1, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:27:29Z" name="loginuivalidation" description="Verify Login page UI Attributes" finished-at="2019-11-29T04:28:02Z" duration-ms="32593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginuivalidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:02Z" name="tearDown" finished-at="2019-11-29T04:28:03Z" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:03Z" name="launchBrowser" finished-at="2019-11-29T04:28:08Z" duration-ms="5373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validloginTest()[pri:2, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:08Z" name="validloginTest" description="Verify Whether User Can Login Successfully with Valid credentials" finished-at="2019-11-29T04:28:28Z" duration-ms="19869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:28Z" name="tearDown" finished-at="2019-11-29T04:28:29Z" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:29Z" name="launchBrowser" finished-at="2019-11-29T04:28:34Z" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidUsernameTest()[pri:3, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:34Z" name="invalidUsernameTest" description="Verify Whether login fails with blank password" finished-at="2019-11-29T04:28:35Z" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:35Z" name="tearDown" finished-at="2019-11-29T04:28:37Z" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:37Z" name="launchBrowser" finished-at="2019-11-29T04:28:42Z" duration-ms="5424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidPasswordTest()[pri:4, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:42Z" name="invalidPasswordTest" description="Verify Whether login fails with blank username" finished-at="2019-11-29T04:28:42Z" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:43Z" name="tearDown" finished-at="2019-11-29T04:28:43Z" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:43Z" name="launchBrowser" finished-at="2019-11-29T04:28:49Z" duration-ms="5356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="canvasValidateTest()[pri:5, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:28:49Z" name="canvasValidateTest" description="Validate the Canvas Chart" finished-at="2019-11-29T04:29:12Z" duration-ms="23763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canvasValidateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:29:12Z" name="tearDown" finished-at="2019-11-29T04:29:13Z" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:29:13Z" name="launchBrowser" finished-at="2019-11-29T04:29:19Z" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="VerifyFlashSaleTest()[pri:6, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:29:19Z" name="VerifyFlashSaleTest" description="Validate the Canvas Chart" finished-at="2019-11-29T04:29:55Z" duration-ms="36415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFlashSaleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:29:55Z" name="tearDown" finished-at="2019-11-29T04:29:56Z" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:29:56Z" name="launchBrowser" finished-at="2019-11-29T04:30:01Z" duration-ms="5402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyTransactionTableTest()[pri:7, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:30:01Z" name="verifyTransactionTableTest" description="Validate the Transaction Table" finished-at="2019-11-29T04:30:07Z" duration-ms="6089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionTableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hackathon.qa.testcases.TraditionalUITest@b62d79]" started-at="2019-11-29T04:30:07Z" name="tearDown" finished-at="2019-11-29T04:30:08Z" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hackathon.qa.testcases.TraditionalUITest -->
+    </test> <!-- TraditionalVersion_2 -->
+  </suite> <!-- TraditonalTestSuite_Version2 -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TraditonalTestSuite_Version1" preserve-order="true">
+   <parameter name="browsername" value="chrome"></parameter>
+    <listeners>
+ <listener class-name="com.hackathon.qa.listeners.CustomListeners"/>
+ </listeners>
+  
+   <test thread-count="5" name="TraditionalVersion_1">
+   
+ <parameter name="siteVersion" value="Version1"></parameter>   
+<classes>
+      <class name="com.hackathon.qa.testcases.TraditionalUITest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

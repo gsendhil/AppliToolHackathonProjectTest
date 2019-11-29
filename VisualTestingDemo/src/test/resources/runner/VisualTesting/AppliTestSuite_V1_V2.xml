@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+ <parameter name="browsername" value="chrome"></parameter>  
+
+
+  <test thread-count="5" name="AppliVersion_1">
+   
+ <parameter name="siteVersion" value="Version1"></parameter>   
+<classes>
+      <class name="com.hackathon.qa.testcases.AppliTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="AppliVersion_2">
+ 
+     <parameter name="siteVersion" value="Version2"></parameter> 
+    <classes>
+      <class name="com.hackathon.qa.testcases.AppliTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

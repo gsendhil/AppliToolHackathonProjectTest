@@ -1,0 +1,8 @@
+DEBUG   2019-11-28 10:43:35,797 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (e20e7378256a8b9d34653b61ba730663)] -> xpath: //input[@id='username']] entered value as : 
+DEBUG   2019-11-28 10:43:36,078 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (e20e7378256a8b9d34653b61ba730663)] -> xpath: //input[@id='password']] entered value as : sendhil
+DEBUG   2019-11-28 10:43:36,387 [main] com.hackathon.qa.base.TestBase  - Clicking on an Element : [[ChromeDriver: chrome on XP (e20e7378256a8b9d34653b61ba730663)] -> xpath: //button[@id='log-in']]
+DEBUG   2019-11-28 10:43:36,463 [main] freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG   2019-11-28 10:43:36,464 [main] freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+DEBUG   2019-11-28 10:43:36,464 [main] freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+DEBUG   2019-11-28 10:43:36,465 [main] freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+DEBUG   2019-11-28 10:43:36,465 [main] freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sendkuma/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

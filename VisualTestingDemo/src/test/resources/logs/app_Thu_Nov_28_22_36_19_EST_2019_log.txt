@@ -1,0 +1,1 @@
+DEBUG   2019-11-28 22:37:36,787 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (cfa405384e56de710f998c05be8348bf)] -> xpath: //input[@id='username']] entered value as : sendhil

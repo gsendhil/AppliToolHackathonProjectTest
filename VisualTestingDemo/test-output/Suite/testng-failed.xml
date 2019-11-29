@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="5" name="AppliVersion_2(failed)">
+    <parameter name="siteVersion" value="Version2"/>
+    <classes>
+      <class name="com.hackathon.qa.testcases.AppliTest">
+        <methods>
+          <include name="loginuivalidation" invocation-numbers="0"/>
+          <include name="canvasValidateTest" invocation-numbers="0"/>
+          <include name="VerifyFlashSaleTest" invocation-numbers="0"/>
+          <include name="verifyTransactionTableTest" invocation-numbers="0"/>
+          <include name="getBrowserName"/>
+          <include name="tearDown"/>
+          <include name="getURL"/>
+          <include name="invalidPasswordTest" invocation-numbers="0"/>
+          <include name="invalidUsernameTest" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.hackathon.qa.testcases.AppliTest -->
+    </classes>
+  </test> <!-- AppliVersion_2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,3 @@
+DEBUG   2019-11-28 12:21:33,537 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (2a255617019da59dcce39d4eff077215)] -> xpath: //input[@id='username']] entered value as : sendhil
+DEBUG   2019-11-28 12:21:33,708 [main] com.hackathon.qa.base.TestBase  - Typing in an Element : [[ChromeDriver: chrome on XP (2a255617019da59dcce39d4eff077215)] -> xpath: //input[@id='password']] entered value as : 
+DEBUG   2019-11-28 12:21:33,907 [main] com.hackathon.qa.base.TestBase  - Clicking on an Element : [[ChromeDriver: chrome on XP (2a255617019da59dcce39d4eff077215)] -> xpath: //button[@id='log-in']]
